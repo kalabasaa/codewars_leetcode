@@ -24,7 +24,7 @@ class Solution:
 
             if total == target:
                 return [left + 1, right + 1]
-            elif total < left:
+            elif total < target:
                 left += 1
             else:
                 right -= 1
